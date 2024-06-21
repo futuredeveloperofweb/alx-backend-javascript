@@ -23,7 +23,7 @@ describe('sendPaymentRequestToApi', () => {
 
   it('sendPaymentRequestToApi(20, 20) logs "The total is: 40" to the console', () => {
     sendPaymentRequestToApi(20, 20);
-    expect(bigBrother.log.calledWith('The total is: 20')).to.be.true;
+    expect(bigBrother.log.calledWith('The total is: 40')).to.be.true;
     expect(bigBrother.log.calledOnce).to.be.true;
   });
 });
